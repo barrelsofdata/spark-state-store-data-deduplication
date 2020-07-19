@@ -15,6 +15,7 @@ dependencies {
 
     compileOnly group: "org.apache.spark", name: "spark-core_${scalaMajorVersion}", version: "${apacheSparkVersion}"
     compileOnly group: "org.apache.spark", name: "spark-sql_${scalaMajorVersion}", version: "${apacheSparkVersion}"
+    implementation group: "org.apache.spark", name: "spark-sql-kafka-0-10_${scalaMajorVersion}", version: "${apacheSparkVersion}"
     
     testImplementation group: "org.scalatest", name: "scalatest_${scalaMajorVersion}", version: "${scalaTestVersion}"
 }
